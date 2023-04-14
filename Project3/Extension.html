@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension service</title>
+    <link rel="stylesheet" href="Extension.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="first">
+            <a href=""><img class="f1" src="images/Top_icon .png" alt=""></a>
+            <img class="f2" src="images/tractor.png" alt="">
+            <img class="f5" src="images/trac-links.png" alt="">
+        </div>
+        <div class="second">
+            <input type="search" name="search" placeholder="Search for product/Services...">
+            <a href=""><button type="button">Search</button></a>
+        </div>
+        <div class="third">
+            <img class="f3" src="images/profile-pix.png " alt="">
+            <img class="f4" src="images/cart.png" alt="">
+        </div>
+    </nav>
+    <!-- <nav>
+        <div class="first">
+            <img class="f1" src="images/Top_icon .png" alt="">
+            <img src="images/tractor.png" alt="">
+            <img src="images/trac-links.png" alt="">
+        </div>
+        <div class="second">
+            <img src="images/search_icon.png"><input class="p-holder" type="text" placeholder="Search for product/Services" alt="">
+            <button type="submit">Search</button>
+        </div>
+        <div class="third">
+            <img src="images/profile-pix.png " height="50" alt="">
+            <img src="images/cart.png" height="40" alt="">
+        </div>
+    </nav> -->
+    <main>
+        <img class="arrow-icon" src="images/arrow1.png" alt="">
+        <h3>Extension Service</h3>
+        <p>Payment Details </p>
+        <form class="form__details" action="form">
+            <div class="email__text">
+                <label for="text">Email Address</label> <br>
+                <input type="text" placeholder="Joe@gmail.com" id="email__size" required>
+            </div> <br>
+            <div class="debit__card-text">
+                <label for="uname">Debit Card Number</label><br>
+                <input type="password" placeholder="xxxx xxxx xxxx xxxx" name="uname" id="card__size" maxlength="14" required>
+            </div> <br>
+            <div class="name">
+                <label for="Date">Expiry Date </label> <br>
+                <input type="date" placeholder="MM/YY" name="uname" id="expiry__size" required>
+            </div>
+            <div class="name">
+                <label for="uname"> CVV</label> <br>
+                <input type="password" placeholder="***" name="uname" id="cvv__size" maxlength="3" required>
+            </div>
+            <div class="subtotal">
+                <p>
+                    Subtotal: <span class="s1">N10,000.00</span>
+                </p>
+                <p>
+                    VAT <span class="s2">N750.00</span>
+                </p>
+                <hr>
+                <h4>
+                    total amount <span class="amount">N10750</span>
+                </h4>
+            </div>
+            <button class="payment" type="text">Make Payment</button>
+        </form>
+    </main>
+    </div>
+</body>
+
+</html>

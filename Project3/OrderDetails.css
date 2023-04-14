@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #C1C1C1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    align-items: center;
+    background-color: #fff;
+    padding: 1% 40px;
+}
+
+input[type=search] {
+    width: 260px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    padding: 5px 10px 6px 30px;
+    outline: none;
+}
+
+button {
+    background: #40C54B;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.first img {
+    /* padding-inline: 2px; */
+}
+
+.first .f1 {
+    padding-inline: 2px;
+}
+
+.third .f3 {
+    padding-inline: 2px;
+    padding-block-start: 5px;
+    padding-inline-end: 5px;
+}
+
+.third .f4 {
+    padding-bottom: 6px;
+    padding-inline-end: 12px;
+}
+
+.first .f2 {
+    width: 10%;
+}
+
+.first .f5 {
+    width: 65%;
+}
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    position: absolute;
+    background-color: #fff;
+    padding: 1% 4%;
+}
+
+.first img {
+    padding-inline: 2px;
+}
+
+button {
+    background: #40C54B;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+
+.place-holder {
+    width: 200px;
+    height: 30px;
+    background: rgba(217, 217, 217, 0.5);
+    border: none;
+    outline: none;
+}
+
+.first .f1 {
+    padding-inline: 2px
+} */
+
+h3 {
+    margin-top: 10%;
+}
+
+p {
+    margin-top: 5%;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+main {
+    justify-content: space-around;
+    align-items: left;
+    position: absolute;
+    width: 669px;
+    height: 100vh;
+    left: 381px;
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.form-info {
+    margin-top: 5%;
+}
+
+#name_size,
+#loca__size,
+#contact__size,
+#date__size,
+#time__size {
+    width: 300px;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    color: #000000;
+    transform: translateY(-50%);
+    font-weight: 700;
+    font-size: 16px;
+    height: 24px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+#name_size input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.proceed {
+    margin-top: 5px;
+    background: #40C54B;
+    width: 128px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.arrow_1 {
+    margin-top: 5%;
+    float: left;
+    margin-left: 20px;
+}

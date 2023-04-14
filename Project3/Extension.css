@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    background-color: #C1C1C1;
+    font-size: 16px;
+}
+
+body img {
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    position: absolute;
+    background-color: #fff;
+    padding: 1% 4%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    align-items: center;
+    background-color: #fff;
+    padding: 1% 40px;
+}
+
+input[type=search] {
+    width: 260px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    padding: 5px 10px 6px 30px;
+    outline: none;
+}
+
+button {
+    background: #40C54B;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.first img {
+    padding-inline: 2px;
+}
+
+.first .f1 {
+    padding-inline: 2px;
+}
+
+.third .f3 {
+    padding-inline: 2px;
+    padding-block-start: 5px;
+    padding-inline-end: 5px;
+}
+
+.third .f4 {
+    padding-bottom: 6px;
+    padding-inline-end: 12px;
+}
+
+.first .f2 {
+    width: 10%;
+}
+
+.first .f5 {
+    width: 65%;
+}
+
+
+/* .first img {
+    padding-inline: 2px;
+}
+
+.first .f1 {
+    padding-inline: 2px
+}
+
+.p-holder {
+    width: 200px;
+    height: 30px;
+    background: rgba(217, 217, 217, 0.5);
+    border: none;
+    outline: none;
+} */
+
+li {
+    font-family: Karla, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    list-style: none;
+    padding-block: 1rem;
+}
+
+.h3__text {
+    width: 173px;
+    height: 27px;
+    top: 238px;
+    left: 633px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 10;
+    text-align: center;
+    margin: 0 35%;
+}
+
+#pay__text {
+    line-height: 15;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.email__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.email__text label {
+    text-align: left;
+    margin-inline: 0% 27%;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+h3 {
+    margin-top: 60px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+label {
+    margin-inline: 0% 25%;
+}
+
+.first__nav {
+    justify-content: center;
+    align-self: center;
+    display: flex
+}
+
+#email__size {
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    align-items: center;
+    text-align: left;
+}
+
+#card__size {
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    display: inline-block;
+    padding: 10px 8px;
+    margin-inline: ;
+    font-family: 'Poppins';
+}
+
+#expiry__size {
+    width: 155px;
+    height: 40px;
+    border-radius: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+button {
+    background: #40C54B;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.s1 {
+    margin-left: 23%;
+}
+
+.s2 {
+    margin-left: 24%;
+}
+
+.amount {
+    margin-left: 22%;
+}
+
+#cvv__size {
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+hr {
+    margin-inline: 15%;
+}
+
+.payment {
+    margin-top: 5%;
+    width: 120px;
+    height: 30px;
+    background: #40C54B;
+    border-radius: 10px;
+    border: none;
+    transform: scale(0.8s);
+}
+
+.arrow-icon {
+    float: left;
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+main {
+    justify-content: space-around;
+    align-items: left;
+    position: absolute;
+    width: 669px;
+    height: 100vh;
+    left: 381px;
+    margin-top: 10%;
+    background: #FFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media all and (max-width: 420px) {
+    body,
+    main {
+        float: none;
+        width: fit-content;
+    }
+}
+
+
+/* @media screen and (min-width: 1000px) {
+    body,
+    main {
+        float: none;
+        width: fit-content;
+    }
+} */
